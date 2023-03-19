@@ -1,6 +1,6 @@
 # Lab 1
 
-Interactivr Dice Roller
+Interactive Dice Roller
 
 ## Instruction
 
