@@ -44,7 +44,11 @@ class MainActivity : AppCompatActivity() {
         val dice = Dice(6)
         val diceRoll = dice.roll() //roll method of dice class generated random number
         val resultTextView: TextView = findViewById(R.id.textView)
-        resultTextView.text = diceRoll.toString()//update the text in screen
+        val resultTextView2: TextView = findViewById(R.id.textView2)
+
+        resultTextView.text = dice.roll().toString()//update the text in screen
+        resultTextView2.text = dice.roll().toString()//update the text in screen
+
     }
 
     /**
